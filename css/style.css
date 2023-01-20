@@ -1,0 +1,45 @@
+.btn {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-modern {
+    position: relative;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border-bottom: 2px solid darkorange;
+    cursor: pointer;
+}
+
+.btn-modern:hover {
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid black;
+    animation: traslacion 0.4s ease-in-out infinite forwards;
+}
+
+.btn-modern:hover {    
+    animation-play-state: paused;
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: brown;
+        transform: translateY(-5px);
+    }
+}
